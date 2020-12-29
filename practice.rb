@@ -73,6 +73,7 @@ class CustomerExpense
 	
 end
 
+
 unit_price = {'milk'=> 3.97, 'bread'=> 2.17, 'banana'=>0.99,'apple'=>0.89} #static table
 sale_price = { 'milk'=> [2,5], 'bread'=>[3,6],'banana'=>[0,0],'apple'=>[0,0]}
 print ("Please enter all the items purchased separated by a comma")

@@ -70,5 +70,5 @@ event_type = {"IssuesEvent" => 7,
               }
 tender_url = "https://api.github.com/users/tenderlove/events/public"
 tender_love_score = TenderLoveScore.new(tender_url , event_type)
-puts "hello"
+puts "hello World"
 puts tender_love_score.score
